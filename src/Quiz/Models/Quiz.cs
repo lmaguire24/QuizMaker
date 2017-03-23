@@ -31,7 +31,10 @@ namespace QuizMaker.Models
                 userAnswers[questionNumber] = answerText;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public List<string> GetResults()
         {
             int correctAnswers = 0;

@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1FC3B8FE-B99E-4066-A879-7D5D4EA47E62}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E48F2640-BE61-48C9-864F-342A07D185E5}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Quiz", "src\Quiz\Quiz.xproj", "{3F514A40-D48F-43E0-BE37-660E936C5946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiz", "src\Quiz\Quiz.csproj", "{3F514A40-D48F-43E0-BE37-660E936C5946}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
